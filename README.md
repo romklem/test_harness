@@ -13,6 +13,11 @@ cd ../testharness
 go mod init testharness
 ```
 
+If you get some errors, might also need to run
+```sh
+go get gonum.org/v1/gonum/mat
+```
+
 ## Build
 
 From the root of repository, run:
