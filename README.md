@@ -36,7 +36,7 @@ To generate **new matrices.go and results.go**, from the root of repository, run
 
 ```sh
 cd generator
-./gentests.exe #'./generator' on Linux
+./gentests.exe #'./gentests' on Linux
 ```
 
 To run the test harness, from the root of repository, run:
