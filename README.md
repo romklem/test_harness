@@ -7,7 +7,6 @@ From the root of repository, run (e.g. in Git Bash):
 ```sh
 cd generator
 go mod init gentests
-go install gonum.org/v1/gonum/mat
 go mod tidy
 cd ../testharness
 go mod init testharness
