@@ -43,7 +43,7 @@ To run the test harness, from the root of repository, run:
 
 ```sh
 cd testharness
-./testharnes.exe #./testharness on Linux
+./testharness.exe #./testharness on Linux
 ```
 
 **NOTE:** Make sure you uncomment the Naive implementation of multiply() in testHarness.go before build/run (and comment the empty one)
