@@ -61,32 +61,33 @@ We need to agree on 3 values for these constants so that all of our tests run in
 
 The matrices are generated as follows:
 
-M0 is of size (small\*2 x small/2)
-M1 is of size (small/2 x small\*2)
-M2 is of size (small x small)
-M3 is of size (small x small)
+M0 is of size (small\*2 x small/2)<br/>
+M1 is of size (small/2 x small\*2)<br/>
+M2 is of size (small x small)<br/>
+M3 is of size (small x small)<br/>
 
-M4 is of size (medium\*2 x medium/2)
-M5 is of size (medium/2 x medium\*2)
-M6 is of size (medium x medium)
-M7 is of size (medium x medium)
+M4 is of size (medium\*2 x medium/2)<br/>
+M5 is of size (medium/2 x medium\*2)<br/>
+M6 is of size (medium x medium)<br/>
+M7 is of size (medium x medium)<br/>
 
-M8 is of size (large\*2 x large/2)
-M9 is of size (large/2 x large\*2)
-M10 is of size (large x large)
-M11 is of size (large x large)
+M8 is of size (large\*2 x large/2)<br/>
+M9 is of size (large/2 x large\*2)<br/>
+M10 is of size (large x large)<br/>
+M11 is of size (large x large)<br/>
 
 Repository contains some pre-generated matrices.go and results.go for convenience
 
 ## TestHarness
 
 This script will run 6 tests, each test will be **repeated 10 times** and the **average time** will be calculated:
-M0 x M1
-M2 x M3
-M4 x M5
-M6 x M7
-M8 x M9
-M10 x M11
+
+M0 x M1<br/>
+M2 x M3<br/>
+M4 x M5<br/>
+M6 x M7<br/>
+M8 x M9<br/>
+M10 x M11<br/>
 
 It will output the average time for each test as well as the total time (sum of all the average times of each test)
 If the result produced by your algorithm does not match the result matrix, it will tell you which test failed
