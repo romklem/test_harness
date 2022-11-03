@@ -19,9 +19,14 @@ const (
 func main() {
 	rand.Seed(time.Now().UnixNano())
 
-	err := os.Mkdir("../testharness/matrices", os.ModePerm)
-	if err != nil {
-		panic(err)
+	mx_path := "../testharness/matrices"
+	_, er := os.Stat(mx_path)
+
+	if os.IsNotExist(er) {
+		err := os.Mkdir(mx_path, os.ModePerm)
+		if err != nil {
+			panic(err)
+		}
 	}
 
 	matrices := createMatrices()
