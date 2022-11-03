@@ -28,7 +28,7 @@ cd ../testharness
 go build
 ```
 
-This will build your go programs in /generator and /testharness folders as gentests(.exe) and testharness(.exe)
+This will build your go programs in /gentests and /testharness folders as gentests(.exe) and testharness(.exe)
 
 ## Run
 
